@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ui_challenge/UI/Challenge0/test.dart';
+import 'package:flutter_ui_challenge/UI/Challenge0/screens/PaymentDashboard.dart';
 import 'package:flutter_ui_challenge/UI/HomePage.dart';
 
 void main() => runApp(MyApp());
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       initialRoute: '/',
       routes: {
         '/': (context) => HomePage(),
-        '/challenge0': (context) => Test()
+        '/challenge0': (context) => PaymentDashboard()
       },
     );
   }
