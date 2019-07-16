@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ui_challenge/UI/Challenge1/test.dart';
+import 'package:flutter_ui_challenge/UI/Challenge0/test.dart';
 import 'package:flutter_ui_challenge/UI/HomePage.dart';
 
 void main() => runApp(MyApp());
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       // home: new HomePage(),
-      // initialRoute: '/',
+      initialRoute: '/',
       routes: {
         '/': (context) => HomePage(),
         '/challenge0': (context) => Test()
