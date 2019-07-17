@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_ui_challenge/UI/Challenge0/screens/PaymentDashboard.dart';
+import 'package:flutter_ui_challenge/UI/Challenge1/screens/AccountDetails.dart';
 import 'package:flutter_ui_challenge/UI/HomePage.dart';
 
-import 'UI/Challenge0/widgets/SendMoneyWidget.dart';
 
 void main() => runApp(MyApp());
 
@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
       routes: {
         '/': (context) => HomePage(),
         '/challenge0': (context) => PaymentDashboard(),
-        '/challenge1': (context) => SendMoneyWidget()
+        '/challenge1': (context) => AccountDetails()
       },
     );
   }

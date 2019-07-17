@@ -1,4 +1,3 @@
-import 'dart:developer';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_ui_challenge/UI/Challenge0/models/payment.dart';
