@@ -3,6 +3,7 @@ import 'package:flutter_ui_challenge/UI/Challenge0/models/payment_card.dart';
 import 'package:flutter_ui_challenge/UI/Challenge0/resources/database.dart'
     as db;
 import 'package:flutter_ui_challenge/UI/Challenge0/widgets/PaymentCardWidgets.dart';
+import 'package:flutter_ui_challenge/UI/Challenge0/widgets/SendMoneyWidget.dart';
 
 class PaymentDashboard extends StatefulWidget {
   @override
@@ -32,7 +33,7 @@ class _PaymentDashboardState extends State<PaymentDashboard> {
         ],
       ),
       body: ListView(
-        children: <Widget>[_buildCardsWidgets()],
+        children: <Widget>[_buildCardsWidgets(), SendMoneyWidget()],
         shrinkWrap: true,
         physics: BouncingScrollPhysics(),
       ),
