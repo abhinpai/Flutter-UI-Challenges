@@ -20,7 +20,7 @@ class _HomePageState extends State<HomePage> {
           return Padding(
             padding: const EdgeInsets.all(8.0),
             child: RaisedButton(
-              child: Text("Challenge$index UI"),
+              child: Text("Challenge$index"),
               onPressed: () {
                 Navigator.pushNamed(context, '/challenge$index');
               },
